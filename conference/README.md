@@ -1,23 +1,21 @@
-Ionic App Base
+PairFit
 =====================
 
-A starting project for Ionic that optionally supports using custom SCSS.
+A starting project so that I can learn Ionic
 
-## Using this project
-
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
-
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
-
+To run:
 ```bash
-$ npm install -g ionic
+sudo npm install -g cordova
+npm install -g ionic
+cd conference
+ionic serve
 ```
 
-Then run:
-
+Android .apk available with 
 ```bash
-$ ionic start myProject tabs
+ionic build android
 ```
+
 
 More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
 
