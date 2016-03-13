@@ -41,11 +41,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ngOpenFB'])
     }
   })
 
-  .state('app.browse', {
-      url: '/browse',
+  .state('app.pair', {
+      url: '/pair',
       views: {
         'menuContent': {
-          templateUrl: 'templates/browse.html'
+          templateUrl: 'templates/pair.html'
         }
       }
     })
@@ -59,15 +59,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ngOpenFB'])
 	  }
 	})
 
-	.state('app.session', {
-	    url: "/sessions/:sessionId",
-	    views: {
-	        'menuContent': {
-	          templateUrl: "templates/session.html",
-	          controller: 'SessionCtrl'
-	      }
-	    }
-	});
+
   // if none of the above states are matched, use this as the fallback
  $urlRouterProvider.otherwise('/app/sessions');
 });
